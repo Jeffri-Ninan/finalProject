@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- remixicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="swiper-bundle.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+    <title>Juice Park</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="images/juiceparklogo.png" alt="image">
+                Juice Park
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav__link">About us</a>
+                    </li>
+                    <li>
+                        <a href="#popular" class="nav__link">Popular</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <!-- close button -->
+                 <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                 </div>
+            </div>
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-apps-2-fill"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- HOME -->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Delicious<br>Milkshake</h1>
+
+                    <p class="home__description">Order the best milkshakes to end your hunger and make your family moments more memorable, place your order now.</p>
+
+                    <a href="#products" class="button">Order Now</a>
+
+                    <img src="images/milkshake1.png" alt="image" class="home__sticker-1" width="150px">
+                    <img src="images/fruits-orange.png" alt="image" class="home__sticker-2" width="200px">
+                </div>
+                <div class="home__images">
+                    <img src="images/mainImage.png" alt="image" class="home__milkshake">
+                    <img src="images/Strawberry.png" alt="image" class="home__ingredient home__strawberry">
+                    <img src="images/raisin1.png" alt="image" class="home__ingredient home__raisin-1">
+                    <img src="images/raisin2.png" alt="image" class="home__ingredient home__raisin-2">
+                    <img src="images/cashew1.png" alt="image" class="home__ingredient home__cashew-1">
+                    <img src="images/cashew2.png" alt="image" class="home__ingredient home__cashew-2">
+                    <img src="images/chocolate.png" alt="image" class="home__ingredient home__chocolate">
+                </div>
+            </div>
+         </section>
+        <!-- ABOUT -->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">Learn More About <br> Our History</h2>
+                    <p class="about__description">
+                        The secret to success is the best home__ingredients to make a good beverage. Today we strive for perfection, just as we have been doing for 3 years when we first opened the shop in Trichy - Jeffri
+                    </p>
+                    <a href="#popular" class="button">The Best Receipes</a>
+                    <img src="images/icecubes.png" alt="image" class="about__sticker" width="100px">
+                </div>
+                <img src="images/juices3.png" alt="image" class="about__img">
+            </div>
+         </section>
+        <!-- POPULAR -->
+         <section class="popular section" id="popular">
+            <div class="popular__container container grid">
+                <div class="popular__data">
+                    <h2 class="section__title">Discover <br> Popular Orders</h2>
+                    <p class="popular__description">
+                        Select the best prepared and delicious flavors. We have collected some popular recipes from around the town for you to choose your favorite.
+                    </p>
+                </div>
+                <div class="popular__swiper swiper">
+                    <img src="images/plate.png" alt="image" class="popular__dish">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <img src="images/chocolatemilkshake1.png" alt="image" class="popular__img">
+                            <h3 class="popular__title">Chocolate Milkshake</h3>
+                        </article>
+                        <article class="popular__card swiper-slide">
+                            <img src="images/lassi.png" alt="image" class="popular__img">
+                            <h3 class="popular__title">Lassi</h3>
+                        </article>
+                        <article class="popular__card swiper-slide">
+                            <img src="images/freshkiwijuice.png" alt="image" class="popular__img">
+                            <h3 class="popular__title">Fresh Kiwi Fruit Juice</h3>
+                        </article>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- RECIPE -->
+         <section class="recipe section">
+            <h2 class="section__title">Fresh And <br> Natural Ingredients</h2>
+            <div class="recipe__container container grid">
+                <div class="recipe__list grid">
+                    <div class="recipe__ingredient">
+                        <img src="images/container milk ingre.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Fresh Milk</h3>
+                            <p class="recipe__description">We are getting fresh milk from the market for the rich taste.</p>
+                        </div>
+                    </div>
+                    <div class="recipe__ingredient">
+                        <img src="images/sugar.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Pure sugar</h3>
+                            <p class="recipe__description">We engaged in getting pure powered sugar from the store.</p>
+                        </div>
+                    </div>
+                    <div class="recipe__ingredient">
+                        <img src="images/fruit basket ingre.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Fresh Fruits</h3>
+                            <p class="recipe__description">We use only fresh fruits for any drinks without adding rotten fruits.</p>
+                        </div>
+                    </div>
+                    <div class="recipe__ingredient">
+                        <img src="images/chocolate bars.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Chocolate Bars</h3>
+                            <p class="recipe__description">We use pure chocolate bars without using other chocolate mixtures.</p>
+                        </div>
+                    </div>
+                    <div class="recipe__ingredient">
+                        <img src="images/toppingsfinal.png" alt="image" class="recipe__image">
+                        <div>
+                            <h3 class="recipe__name">Fresh Toppings</h3>
+                            <p class="recipe__description">We are adding fresh toppings to make customers to feel rich look in having our drinks</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/content shake.png" alt="image" class="recipe__img">
+            </div>
+         </section>
+         <!-- PRODUCT -->
+          <section class="products section" id="products">
+            <h2 class="section__title">The Most <br> Devoured Beverages</h2>
+            <div class="products__container container grid">
+                <article class="products__card">
+                    <img src="images/productbutterscotch.png" alt="image" class="products__img">
+                    <h3 class="products__name">Butter Scotch <br> Milkshake</h3>
+                    <span class="products__price">&#8377; 70</span>
+                    <button class="products__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="images/productchocolate.png" alt="image" class="products__img">
+                    <h3 class="products__name">Chocolate <br> Milkshake</h3>
+                    <span class="products__price">&#8377; 70</span>
+                    <button class="products__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="images/productmango.png" alt="image" class="products__img">
+                    <h3 class="products__name">Mango <br> Thickshake</h3>
+                    <span class="products__price">&#8377; 60</span>
+                    <button class="products__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="images/productpineapple.png" alt="image" class="products__img">
+                    <h3 class="products__name">Pineapple <br> Juice</h3>
+                    <span class="products__price">&#8377; 40</span>
+                    <button class="products__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="images/productstrawberry.png" alt="image" class="products__img">
+                    <h3 class="products__name">Strawberry <br> Lassi</h3>
+                    <span class="products__price">&#8377; 55</span>
+                    <button class="products__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="images/freshkiwijuice.png" alt="image" class="products__img">
+                    <h3 class="products__name">Kiwi <br> Juice</h3>
+                    <span class="products__price">&#8377; 40</span>
+                    <button class="products__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </button>
+                </article>
+            </div>
+          </section>
+          <!-- CONTACT -->
+           <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__data">
+                    <h2 class="section__title">Contact Now</h2>
+                    <div class="contact__info grid">
+                        <div>
+                            <h3 class="contact__title">Write Us</h3>
+                            <div class="contact__social">
+                                <a href="https://web.whatsapp.com/" target="_blank" class="contact__social-link">
+                                    <i class="ri-whatsapp-fill"></i>
+                                </a>
+                                <a href="https://www.messenger.com/" target="_blank" class="contact__social-link">
+                                    <i class="ri-messenger-fill"></i>
+                                </a>
+                                <a href="https://web.telegram.org/a/" target="_blank" class="contact__social-link">
+                                    <i class="ri-telegram-2-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="contact__title">Delivery</h3>
+                            <address class="contact__address">
+                                +91 9487247188 <br> +91 9486677188
+                            </address>
+                        </div>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <address class="contact__address">
+                                Andar Street - Teppakulam<br> Trichy
+                            </address>
+                            <a href="https://maps.app.goo.gl/ktVQjuDF2XbqxSmBA" target="_blank" class="contact__map">
+                                <i class="ri-map-pin-fill"></i>
+                                <span>View On Map</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__image">
+                    <img src="images/deliveryman1.png" alt="image" class="contact__img">
+                </div>
+                <img src="images/contactchocolate.png" alt="image" class="contact__sticker-1">
+                <img src="images/contactorange.png" alt="image" class="contact__sticker-2">
+                <img src="images/contactstrawberry.png" alt="image" class="contact__sticker-3">
+            </div>
+           </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="#" class="footer__logo">Juice Park</a>
+            <div class="footer__content grid">
+                <div>
+                    <h3 class="footer__title">Social</h3>
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-x-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer__title">Payment Methods</h3>
+                    <div class="footer__pay">
+                        <img src="images/gpayimage.png" alt="img" class="footer__pay-img">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer__title">Subscribe For Discounts</h3>
+                    <form action="" class="footer__form">
+                        <input type="email" placeholder="Email" class="footer__input">
+                        <button type="submit" class="footer__button button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer__policy">
+            <a href="#" class="footer__link">Terms & Agreements</a>
+            <a href="#" class="footer__link">Privacy Policy</a>
+        </div>
+        <span class="footer__copy">
+            &#169; All Rights Reserved By Juice Park
+        </span>
+    </footer>
+    <!-- scrolllup -->
+     <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+     </a>
+     <a href="#" class="scrollcart" id="scroll-cart">
+        <i class="ri-shopping-cart-fill"></i>
+        <span class="quantity">0</span>
+     </a>
+     <!-- scrollreveal -->
+      <script src="scrollreveal.min.js"></script>
+    <!-- swiper js -->
+    <script src="swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
